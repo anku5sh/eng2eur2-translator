@@ -1,7 +1,7 @@
 #!/bin/zsh
 source .venv/bin/activate
 pyinstaller --noconfirm --onefile --windowed \
-  --name "Eng2Eur2" \
+  --name "eng2eur2" \
   --add-data "src:src" \
   --hidden-import PyQt6 \
   --hidden-import deep_translator \
