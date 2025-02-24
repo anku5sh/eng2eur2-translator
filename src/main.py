@@ -18,7 +18,7 @@ class Translator(QObject):
 class TranslationApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Eng2Eur Translator")
+        self.setWindowTitle("Eng2Eur2 Translator")
         self.setGeometry(100, 100, 800, 600)
         self.translator = Translator()
         self.init_ui()
