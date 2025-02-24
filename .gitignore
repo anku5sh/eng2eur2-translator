@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Executables
+*.app
+*.exe
